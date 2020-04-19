@@ -5,7 +5,7 @@ describe('index', () => {
   let page
   beforeAll(async () => {
     miniProgram = await automator.launch({
-      projectPath: '/Users/howard/study/研究生/课程/软件工程与自动化/miniprogram-demo'
+      projectPath: './'
     })
     page = await miniProgram.reLaunch('/page/component/index')
     await page.waitFor(500)
