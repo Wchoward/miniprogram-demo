@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "jest": "^25.3.0",
-    "miniprogram-ci": "^1.0.24"
+    "miniprogram-ci": "^1.0.24",
+    "miniprogram-automator": "^0.9.1"
   }
 }

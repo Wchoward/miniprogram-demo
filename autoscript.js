@@ -12,3 +12,5 @@ automator.launch({
 
   await miniProgram.close()
 })
+
+
