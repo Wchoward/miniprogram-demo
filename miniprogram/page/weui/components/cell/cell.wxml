@@ -71,3 +71,4 @@
         </view>
     </view>
 </block>
+<view class="cell">{{prop}}</view>

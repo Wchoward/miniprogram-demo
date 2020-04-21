@@ -137,7 +137,7 @@ Component({
         },
         prop: {
             type: String,
-            value: ''
+          value: 'cell.properties'
         },
         url: {
             type: String,
