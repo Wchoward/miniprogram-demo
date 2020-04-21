@@ -3,7 +3,6 @@ const automator = require('miniprogram-automator')
 describe('index', () => {
   let miniProgram
   let page
-  let aaa
   beforeAll(async () => {
     miniProgram = await automator.launch({
       projectPath: './'
