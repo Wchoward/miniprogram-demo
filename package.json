@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "WeChat miniprogram demo",
   "scripts": {
-    "lint": "eslint .",
-    "test": "jest miniprogram-demo-test/index.spec.js"
+    "lint": "eslint miniprogram-demo-test",
+    "unit_test":"jest miniprogram-demo-test/unit.test.js",
+    "func_test": "jest miniprogram-demo-test/index.spec.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.0",
-    "miniprogram-automator": "^0.9.1"
+    "miniprogram-automator": "^0.9.1",
+    "miniprogram-simulate": "^1.2.1"
   },
   "dependencies": {
     "jest": "^25.3.0",
