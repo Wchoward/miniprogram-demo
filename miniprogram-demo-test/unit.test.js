@@ -8,7 +8,7 @@ test('components/index', () => {
   const parent = document.createElement('parent-wrapper') // 创建父亲节点
   comp.attach(parent) // attach 到父亲节点上，此时会触发自定义组件的 attached 钩子
 
-  const view = comp.querySelector('.cell') // 获取子组件 view
+   const view = comp.querySelector('.cell') // 获取子组件 view
   expect(view.dom.innerHTML).toBe('cell.properties') // 测试渲染结果
   expect(window.getComputedStyle(view.dom).color).toBe('green') // 测试渲染结果
 })
